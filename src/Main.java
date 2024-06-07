@@ -48,8 +48,7 @@ public class Main {
         int cashSavingsInterestRate = 29_000;
         int total = 0;
         for (int i = 1; i <= 12; i++) {
-            total = total + total/100;
-            total = total + cashSavingsInterestRate;
+            total = total + total/100 + cashSavingsInterestRate;
             System.out.println( "Месяц "+ i + ", сумма накоплений равна " + total + " рублей" );
         }
 
